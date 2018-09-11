@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RuralFeed</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou registrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">Endereco de email invalido</string>
+    <string name="error_invalid_password">Senha fraca</string>
+    <string name="error_incorrect_password">Senha errada</string>
+    <string name="error_field_required">Campo obrigatorio</string>
+    <string name="permission_rationale">"Permissões de contatos são necessárias para fornecer e-mail
+        conclusões."
+    </string>
+</resources>
