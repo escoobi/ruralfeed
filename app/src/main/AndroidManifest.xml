@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name=".MainActivity$TarefaAssincronaIntentService"
+            android:name=".exemploIntentService"
             android:exported="false"/>
     </application>
 
