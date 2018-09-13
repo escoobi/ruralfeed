@@ -15,7 +15,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Intent intent = new Intent(this, exemploIntentService.class);
         startService(intent);
+        //**************************
 
+        Intent intentTipoPessoa = new Intent(this, TipoPessoa.class);
+        startService(intentTipoPessoa);
+toto();
+    }
+
+    public void toto(){
 
     }
 }

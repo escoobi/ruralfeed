@@ -29,7 +29,7 @@ public class exemploIntentService extends IntentService {
 
 
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
-        final DatabaseReference myRef = database.getReference("Pessoas");
+        final DatabaseReference myRef = database.getReference("Pessoa");
 
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -58,9 +58,21 @@ public class exemploIntentService extends IntentService {
             }
         });
 
+        //************************************************************************************************************************
 
+        FirebaseDatabase databaseTipoPessoa = FirebaseDatabase.getInstance();
+        DatabaseReference myRefTipoPessoa = databaseTipoPessoa.getReference("TesteKeyCopia");
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        finally {
+            myRefTipoPessoa.setValue(keyPessoa);
+
+        }
+        //************************************************************************************************************************
+        TipoPessoa tpPessoa = new TipoPessoa();
+        tpPessoa.TipoPessoa();
     }
-
-
-
 }
