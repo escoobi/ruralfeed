@@ -19,10 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intentTipoPessoa = new Intent(this, TipoPessoa.class);
         startService(intentTipoPessoa);
-toto();
-    }
-
-    public void toto(){
 
     }
 }
