@@ -3,9 +3,11 @@
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
+    <string name="prompt_nome">Nome completo</string>
     <string name="status">Aguarde...</string>
     <string name="prompt_password">Senha</string>
-    <string name="action_sign_in">Entrar ou registrar</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_register">Quero me incluir!</string>
     <string name="action_sign_in_short">Entrar</string>
     <string name="error_invalid_email">Endereco de email invalido</string>
     <string name="error_invalid_password">Senha fraca</string>
